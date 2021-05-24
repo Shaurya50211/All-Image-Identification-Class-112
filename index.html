@@ -1,0 +1,54 @@
+<html>
+
+<head>
+  <title>Image Identification Webapp</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <center>
+    <div class="col-xs-12 head_div">
+      <h1>Image Identification Webapp
+        <img src="Logo.gif">
+      </h1>
+    </div>
+
+    <div class="col-sm-6 col-xs-12 webcam_div">
+      <label>Webcam View</label>
+      <div id="camera"></div>
+      <br>
+      <button onclick="takeSnapshot();">Capture Image!</button>
+    </div>
+
+    <div class="col-sm-6 col-xs-12 webcam_div">
+      <label>Preview</label>
+      <div id="picClicked"></div>
+      <br>
+      <button onclick="identifyImg();">Identiify Image</button>
+    </div>
+  </center>
+  <div class="col-xs-12 result_div">
+    <h4 class="col-sm-6 col-xs-12">
+      <img src="blub.gif">
+      <span id="object_name"></span>
+    </h4>
+  </div>
+
+  <div class="footer">
+    Created by - Shaurya Gupta
+  </div>
+
+
+  <script src="main.js"></script>
+</body>
+
+</html>

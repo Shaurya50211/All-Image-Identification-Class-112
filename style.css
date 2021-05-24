@@ -1,0 +1,90 @@
+body {
+    font-family: 'Special Elite', cursive;
+    background-color: #fcf6b1;
+}
+
+.head_div {
+    background-color: lightcoral;
+}
+
+h1 {
+    color: lightgreen;
+    font-size: 40px;
+    text-shadow: 4px 4px darkgreen;
+}
+
+.head_div img {
+    width: 100px;
+}
+
+.webcam_div {
+    margin-top: 15px;
+    border: 3px solid lightcoral;
+    box-shadow: 8px 8px 20px #6e757d;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.webcam_div label {
+    background-color: white;
+    width: 310px;
+    padding: 10px;
+    margin-bottom: 0px;
+    box-shadow: 5px 5px 18px greenyellow;
+    margin-top: 30px
+}
+
+#camera,
+#picClicked {
+    box-shadow: 5px 5px 18px greenyellow;
+    border: 2px solid greenyellow;
+    width: 310px;
+    height: 300px;
+}
+
+button {
+    background-color: #4CAF50;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.result_div {
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+.result_div h4 {
+    background-color: white;
+    border-radius: 30px;
+    padding: 5px;
+    box-shadow: 5px 5px 18px black;
+}
+
+.result_div img {
+    width: 100px;
+}
+
+.footer {
+    background-color: cornflowerblue;
+    position: fixed;
+    color: white;
+    padding: 5px;
+    width: 100%;
+    text-align: center;
+    bottom: 0;
+}
